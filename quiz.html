@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country</title>
+    <link rel="icon" href="img/japan.png" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <script src="main.js" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header_wrapper">
+                <div class="header_logo">
+                    <a href="index.html" class="header_logo_link">
+                        <img src="img/logo.png" alt="Discover Amazing places in Japan" class="header_logo_pick">
+                    </a>
+                </div>
+
+                <nav class="header_nav">
+                    <ul class="header_list">
+                        <li class="header_items">
+                            <a href="contact.html" class="header_link">Contact</a>
+                        </li>
+                        <li class="header_items">
+                            <a href="anime.html" class="header_link">Anime</a>
+                        </li>
+                        <li class="header_items">
+                            <a href="quiz.html" class="header_link">Quiz</a>
+                        </li>
+                        <li class="header_items">
+                            <a href="jdm.html" class="header_link">JDM</a>
+                        </li>
+                    </ul>
+                    <div class="heder_nav_close">
+                        <span class="header_nav_close_krest"></span>
+                        <span class="header_nav_close_krest"></span>
+                    </div>
+                </nav>
+                <div class="header_burger burger">
+                    <span class="burger_line burger_line_1"></span>
+                    <span class="burger_line burger_line_2"></span>
+                    <span class="burger_line burger_line_3"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="intro">
+            <div class="wrapper">
+                <h1 class="intro_title">Discover Amazing quiz about Japan</h1>
+                <p class="intro_sab_title">Every traveller should pass quiz about Japan, in my opinion.</p>
+            </div>
+            <form id="quiz" name="quiz">
+
+
+                <p class="questions">What country is the site about?</p>
+                <input id="textbox" type="text" name="question1">
+
+                <p class="questions">What is the capital city of Japan?</p>
+                <input type="radio" id="mc" name="question2" value="Kyoto"> Kyoto<br>
+                <input type="radio" id="mc" name="question2" value="Tokyo"> Tokyo<br>
+                <input type="radio" id="mc" name="question2" value="Osaka"> Osaka<br>
+
+                <p class="questions">Which famous Japanese dish consists of vinegared rice and various toppings?</p>
+                <input type="radio" id="mc" name="question3" value="Udon"> Udon<br>
+                <input type="radio" id="mc" name="question3" value="Sushi"> Sushi<br>
+                <input type="radio" id="mc" name="question3" value="Ramen"> Ramen<br>
+
+                <p class="questions">What is the highest mountain in Japan?</p>
+                <input type="radio" id="mc" name="question4" value="Mount Fuji"> Mount Fuji<br>
+                <input type="radio" id="mc" name="question4" value="Mount Everest"> Mount Everest<br>
+                <input type="radio" id="mc" name="question4" value="Mount Kilimanjaro"> Mount Kilimanjaro<br>
+
+                <p class="questions">Which Japanese art form features the folding of paper to create intricate designs?</p>
+                <input type="radio" id="mc" name="question5" value="Origami"> Origami<br>
+                <input type="radio" id="mc" name="question5" value="Ikebana"> Ikebana<br>
+                <input type="radio" id="mc" name="question5" value="Sumi-e"> Sumi-e<br>
+
+                <p class="questions">What is the traditional Japanese theatre known as?</p>
+                <input type="radio" id="mc" name="question6" value="Kabuki"> Kabuki<br>
+                <input type="radio" id="mc" name="question6" value="Noh"> Noh<br>
+                <input type="radio" id="mc" name="question6" value="Bunraku"> Bunraku<br>
+
+                <p class="questions">Which Japanese city is famous for its hot springs and traditional ryokan inns?</p>
+                <input type="radio" id="mc" name="question7" value="Hiroshima"> Hiroshima<br>
+                <input type="radio" id="mc" name="question7" value="Kyoto"> Kyoto<br>
+                <input type="radio" id="mc" name="question7" value="Hakone"> Hakone<br>
+
+                <p class="questions">"What is the name of the traditional Japanese garment?</p>
+                <input type="radio" id="mc" name="question8" value="Kimono"> Kimono<br>
+                <input type="radio" id="mc" name="question8" value="Yukata"> Yukata<br>
+                <input type="radio" id="mc" name="question8" value="Haori"> Haori<br>
+
+
+                <input id="button" type="button" value="I'm finished!" onclick="check();">
+
+
+            </form>
+
+            <div id="after_submit">
+                <p id="number_correct"></p>
+                <p id="message"></p>
+                <img id="picture">
+            </div>
+        </section>
+    </main>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br>
+    <footer class="footer">
+        <div class="container">
+            <div class="row" style="padding-top: 30px;">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <h5 class="text-white">Ispaev Galymbek</h5>
+                    <p class="text-white footer-para">MT-2202 student</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <h5 class="text-white">Wanna collaborate? Contact me</h5>
+                    <p class="text-white footer-para">
+                        +77053302650 <br>
+                        ispaev005@gmail.com
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <h5 class="text-white">Astana</h5>
+                    <p class="text-white footer-para">
+                        Astana IT university <br>
+                        221338@astanait.edu.kz
+                    </p>
+                </div>
+
+                <li>
+                    <a href="https://www.instagram.com/laganytu/" class="footer_menu_link">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UC4C1a5klzRRNuSsITKNAB2Q" class="footer_menu_link">Youtube</a>
+                </li>
+                </ul>
+                </nav>
+
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
